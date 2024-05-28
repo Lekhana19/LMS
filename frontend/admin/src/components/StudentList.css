@@ -1,0 +1,70 @@
+.student-list-container {
+    padding: 20px;
+    background-color: #fff /* Background color for the container */
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: row; /* Align controls in a row */
+    align-items: baseline;
+    gap: 10px; /* Space between controls */
+    margin-bottom: 20px; /* Space below the control section */
+  }
+  
+  .course-select,
+  .export-btn,
+  .print-btn {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff; /* Background color for the buttons and select */
+    cursor: pointer;
+  }
+  
+  .export-btn,
+  .print-btn {
+    color: white;
+    background-color: #4CAF50; /* Green background for the buttons */
+  }
+  
+  .export-btn:hover,
+  .print-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .student-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px; /* Optional: max width for the list, adjust as needed */
+  }
+  
+  .student-item {
+    background-color: #ffffff; /* Background color for each student item */
+    border: 1px solid #ddd; /* Border for each student item */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .student-id,
+  .student-name,
+  .student-email {
+    margin-right: 10px;
+  }
+  
+  .student-id {
+    font-weight: bold;
+  }
+  
+  .student-name {
+    flex-grow: 1; /* Ensures name takes up the available space */
+  }
+  
+  .student-email {
+    font-size: 0.9em;
+    color: #666;
+  }
+  

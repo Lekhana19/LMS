@@ -1,0 +1,57 @@
+.courses-container {
+    padding: 20px;
+    background-color: #fff; /* Background color for the courses container */
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    background-color: #ffffff; /* Background color for each course item */
+    border: 1px solid #ddd; /* Border for each course item */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .course-code,
+  .course-name,
+  .course-semester,
+  .course-faculty {
+    margin-right: 10px;
+  }
+  
+  .course-code {
+    font-weight: bold;
+  }
+  
+  .course-name {
+    flex-grow: 1;
+  }
+  
+  .course-semester {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .course-faculty {
+    font-size: 0.9em;
+    color: #666;
+  }
+  

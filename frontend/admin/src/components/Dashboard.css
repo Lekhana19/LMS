@@ -1,0 +1,20 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Add any additional styling here */
+  }
+  
+  /* Example additional styling */
+  .dashboard h4 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard .MuiCard-root {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard .MuiTypography-root {
+    color: #fff;
+  }
+  
